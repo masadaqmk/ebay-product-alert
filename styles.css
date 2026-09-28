@@ -215,6 +215,13 @@ a { color: inherit; }
 
 .btn.ghost:hover { background: #fff; }
 
+.hero-compat {
+  margin: 18px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+}
+
 .hero-stage {
   margin-top: 48px;
   width: 100%;

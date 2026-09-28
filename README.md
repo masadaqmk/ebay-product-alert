@@ -6,8 +6,8 @@ Host the `store-site/` folder on any HTTPS site (GitHub Pages, Netlify, Cloudfla
 
 | Field | Suggested URL |
 | --- | --- |
-| Homepage | `https://YOUR-DOMAIN/index.html` |
-| Privacy policy | `https://YOUR-DOMAIN/privacy.html` |
+| Homepage | `https://masadaqmk.github.io/ebay-product-alert/` |
+| Privacy policy | `https://masadaqmk.github.io/ebay-product-alert/privacy.html` |
 | Support email | `mksoltech@gmail.com` |
 
 ## Single purpose (paste into store + privacy alignment)
@@ -20,7 +20,7 @@ Paste an eBay URL, watch with your browser session, and get alerts when new prod
 
 ## Detailed description (draft)
 
-eBay Product Alert watches the eBay search or category URLs you save and notifies you when new listings appear.
+Product Alert Watcher watches the eBay search or category URLs you save and notifies you when new listings appear.
 
 Features:
 • Add multiple watches with custom check intervals
@@ -43,7 +43,7 @@ Not affiliated with eBay Inc. Use your own eBay account and follow eBay’s term
 - **cookies**: Read eBay session cookies so fetches use your signed-in browser session.
 - **alarms**: Schedule background polling.
 - **notifications**: Alert when new products are found.
-- **tabs**: Open item pages from notifications/links.
+- **tabs**: Open item pages from notifications/links and reopen the extension app tab.
 - **Host permissions (eBay domains)**: Fetch only the eBay URLs the user configures to watch.
 
 ## Privacy practices checklist
@@ -57,8 +57,8 @@ Not affiliated with eBay Inc. Use your own eBay account and follow eBay’s term
 
 ## Package for upload
 
-1. Zip the extension root **without** `store-site/` if you prefer (optional).
-2. Include `manifest.json`, `app/`, `background/`, `content/`, `lib/`, `icons/`.
+1. Zip the extension root **without** `store-site/`, `.git/`, or `scripts/`.
+2. Include `manifest.json`, `app/`, `background/`, `lib/`, `icons/`.
 3. Capture screenshots of Dashboard, Watches, Product listing, and a toast alert (1280×800 or 640×400).
 
 ## Local preview
